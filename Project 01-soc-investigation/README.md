@@ -43,5 +43,5 @@ High. The attacker logged in and a suspicious executable appeared within minutes
 5. Enable account lockout and multi-factor authentication.
 
 ## What I learned
-(Write this in your own words.)
+(I learned how to spot a brute-force attack in login logs: many failed attempts from one IP address in a short time. A successful login straight after those failures is a serious warning sign, because it suggests the attacker guessed the password. I also learned to look at what happened next, such as the suspicious file update.exe appearing in C:\Temp, since that can show the attacker is trying to install malware. I mapped the activity to MITRE ATT&CK techniques (Brute Force and Valid Accounts) and practised writing clear recommended actions: reset the account, block the IP, isolate the host and enable account lockout and multi-factor authentication. This was a made-up practice scenario, so my next step is to repeat the process with real log data in a lab such as Splunk or Security Onion)
 
