@@ -36,6 +36,8 @@ a practice email pretending to be from Microsoft asked the reader to verify thei
 ## Tool results
 Not run, because the email and link are fictional. With a real email, I would check the URL on VirusTotal and URLScan.io, and the sender IP on AbuseIPDB, then add screenshots here.
 
+## Verdict
+Phishing. The sender uses a lookalike domain, the message threatens the user with a 24-hour deadline, and it asks for a password through a link to an unrelated domain. A genuine Microsoft email would not do any of these.
 
 ## Response steps
 1. Block the sender and domain.
@@ -46,7 +48,4 @@ Not run, because the email and link are fictional. With a real email, I would ch
 ## What I learned
 I learned how to spot the common signs of a phishing email: a lookalike sender domain, urgent and threatening wording, a generic greeting, a link to an unrelated domain and a request for a password. I also learned what SPF, DKIM and DMARC check, and how an analyst would use VirusTotal, URLScan.io and AbuseIPDB to investigate a real email. This project used a made-up practice email, so my next step is to repeat the process with a real public sample and add tool screenshots.
 
-## Verdict
-Phishing -the sender use a look alike domain Phishing. 
-the message threatens the user with a 24-hour deadline, and  asks for a password through a link to an unrelated domain.
-Not what a genuine email will do
+
