@@ -24,9 +24,9 @@ One or two plain-English sentences: what the email was and your verdict.
 ## Header analysis
 | Check | Result | Meaning |
 |---|---|---|
-| SPF | | |
-| DKIM | | |
-| DMARC | | |
+| SPF | Not available (practice email) | A real email would likely fail SPF, because the sender domain is a lookalike. |
+| DKIM | Not available (practice email) | Checks the message is signed and unaltered. Would be missing or fail here. |
+| DMARC | Not available (practice email) | Tells the receiver what to do with failed emails. Lookalike domains usually have no policy. |
 
 ## Indicators of compromise
 - URLs:
