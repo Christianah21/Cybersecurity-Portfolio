@@ -1,7 +1,7 @@
 # Project 02 - Phishing Investigation
 
 ## Summary
-One or two plain-English sentences: what the email was and your verdict.
+a practice email pretending to be from Microsoft asked the reader to verify their password through a suspicious link. I analysed it and concluded it was phishing.
 
 ## Email details
  Sender (display name and address): "Microsoft Account Team" <support@micros0ft-security-alerts.com>
@@ -34,7 +34,17 @@ One or two plain-English sentences: what the email was and your verdict.
 - Attachment names or hashes: None
 
 ## Tool results
-Won't run, because the email and link are fictional. I would check the URL on VirusTotal and URLScan.io, and the sender IP on AbuseIPDB with a actual email then add screenshots here.
+Not run, because the email and link are fictional. With a real email, I would check the URL on VirusTotal and URLScan.io, and the sender IP on AbuseIPDB, then add screenshots here.
+
+
+## Response steps
+1. Block the sender and domain.
+2. Remove the email from mailboxes.
+3. Report it to the security team.
+4. Warn users about this type of email.
+
+## What I learned
+I learned how to spot the common signs of a phishing email: a lookalike sender domain, urgent and threatening wording, a generic greeting, a link to an unrelated domain and a request for a password. I also learned what SPF, DKIM and DMARC check, and how an analyst would use VirusTotal, URLScan.io and AbuseIPDB to investigate a real email. This project used a made-up practice email, so my next step is to repeat the process with a real public sample and add tool screenshots.
 
 ## Verdict
 Phishing -the sender use a look alike domain Phishing. 
