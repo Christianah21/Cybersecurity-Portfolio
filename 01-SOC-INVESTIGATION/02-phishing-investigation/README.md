@@ -4,9 +4,8 @@
 One or two plain-English sentences: what the email was and your verdict.
 
 ## Email details
-- Sender (display name and address):''Microsoft Account Team '' <support@microsoft-security-alerts.com>
-- Subject:
-- URGENT : Your account will be closed in 24hours
+ Sender (display name and address): "Microsoft Account Team" <support@micros0ft-security-alerts.com>
+- Subject: URGENT: Your account will be closed in 24 hours
 - Date:6 october 2026
 - Sample source: (Made -up practise email(not a real message))
 
